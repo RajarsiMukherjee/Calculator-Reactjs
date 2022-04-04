@@ -82,7 +82,7 @@ export const Calculator = () => {
             <button onClick={handleClick} name=".">
               .
             </button>
-            <button className="equal" onClick={calculate} id="result">
+            <button className="equal" onClick={calculate} id="equal">
               =
             </button>
           </div>

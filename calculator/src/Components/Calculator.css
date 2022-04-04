@@ -38,7 +38,7 @@
 #clear {
     grid-column: 1/3;
 }
-#result {
+#equal {
     grid-column: 3/5;
 }
 .clear{
