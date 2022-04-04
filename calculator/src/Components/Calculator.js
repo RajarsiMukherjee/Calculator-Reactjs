@@ -4,7 +4,7 @@ import React, { useState } from "react";
 export const Calculator = () => {
     const [result, setResult] = useState("");
 
-    const handelClick = (e) => {
+    const handleClick = (e) => {
         setResult(result.concat(e.target.name));
     };
 
@@ -87,5 +87,5 @@ export const Calculator = () => {
             </button>
           </div>
         </div>
-      );
+    );
 };   
